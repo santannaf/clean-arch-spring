@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS films;
+
+CREATE TABLE films (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(250) NOT NULL,
+  episode_id INT NOT NULL
+);
